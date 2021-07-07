@@ -1,0 +1,13 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+html {
+    background: url(mars1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    }
+
+h1,h2,hr,ul,p {
+    color:aquamarine
+    
+}
