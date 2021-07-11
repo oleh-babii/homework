@@ -304,3 +304,42 @@ body {
     color: #FFFFFF;
     margin: 0 99.5px 32px 99.5px;
 }
+
+.container-eight {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    width: 320px;
+    height: 137px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.container-eight>.p-cookies {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin: 16px 16px 12px 16px;
+}
+
+.container-eight>.p-privacy {
+    display: inline;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6666FF;
+    margin: 8px 129px 24px 16px;
+}
+
+.container-eight>button {
+    width: 64px;
+    height: 33px;
+    background: #6666FF;
+    border-radius: 4px;
+    border-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: auto;
+}
