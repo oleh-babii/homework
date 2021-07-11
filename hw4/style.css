@@ -213,3 +213,53 @@ body {
     line-height: 16px;
 }
 
+.container-six {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    width: 360px;
+    height: 170px;
+    background: #FFF;
+    border-radius: 16px;
+}
+
+.container-six>h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0F181D;
+    margin: 16px 0 10px 16px;
+}
+
+.container-six>p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #687F8C;
+    margin: 0 16px 16px 16px;
+}
+
+.container-six>.manage-cookies-btn {
+    width: 160px;
+    height: 32px;
+    background: #EAF0F4;
+    border-radius: 6px;
+    border-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #687F8C;
+    margin: 0 8px 16px 16px;
+}
+
+.container-six>.accept-all-btn {
+    width: 160px;
+    height: 32px;
+    background: #40C1A7;
+    border-radius: 6px;
+    border-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: auto;
+}
