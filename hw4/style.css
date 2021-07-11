@@ -263,3 +263,44 @@ body {
     color: #FFFFFF;
     margin: auto;
 }
+
+.container-seven {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    width: 320px;
+    height: 260px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-seven>h3 {
+    color: #15295A;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+    margin: 32px 108px 0 108px;
+}
+
+.container-seven>p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #15295A;
+    margin: 0 32px 32px 32px;
+    text-align: center;
+}
+
+.container-seven>button {
+    width: 121px;
+    height: 44px;
+    background: #4A7EFF;
+    border-radius: 43px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 99.5px 32px 99.5px;
+}
