@@ -5,7 +5,7 @@ body {
     background: #e2e2e2;
 }
 
-.main>h1 {
+.header>h1 {
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -59,3 +59,76 @@ body {
     margin: 18px 120px 18px 0;
 }
 
+.container-two {
+    margin-top: 25px;
+    display: flex;
+    color: #FFF;
+    width: 1440px;
+    height: 52px;
+    background: #2B2627;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.container-two>p>a {
+    color: #FFF;
+}
+
+.container-two>p{
+    margin: 16px 20px 16px 8px;
+}
+
+.container-three {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    width: 560px;
+    height: 72px;
+    background: #FFF;
+    border-radius: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.container-three>images {
+    margin: 18px 10px 18px 16px;
+}
+
+.container-three>p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 16px 10px 16px 0;
+}
+
+.container-three>p>span {
+    color: #EA4C89;
+}
+
+.container-three>.decline-btn {
+    width: 63px;
+    height: 28px;
+    background: rgba(13, 12, 34, 0.05);
+    border-radius: 8px;
+    border-style: none;
+    margin: 22px 10px 22px 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #0D0C22;
+}
+
+.container-three>.allow-btn {
+    width: 52px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    margin: 22px 16px 22px 0;
+}
