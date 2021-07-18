@@ -182,5 +182,104 @@ input {
 input:hover {
     background: #ed4c5c2f;
 }
-    
 
+.footer {
+    width: 1440px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    
+} 
+
+.container-three {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80.88%;
+    padding: 0;
+}
+
+.h3 {
+    font-weight: bold;
+    font-size: 18px; 
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+
+.address {
+    margin: 65px 85px 30px 30px;
+}
+
+.address-p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.services {
+    margin: 65px 165px 30px 30px;
+}
+    
+.services-p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+    display: block;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    margin: 65px 100px 30px 25px;
+}
+
+.get-in-touch>span {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
+
+a:hover {
+    color: #ED4C5C;
+}
+
+.email {
+    margin-bottom: 11px;
+}
+
+.phone {
+    margin-bottom: 20px;
+}
+
+.support {
+    margin-left: 100px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+}
+
+.img-credit-cards {
+    margin-left: 120px;
+}
+
+.copyright {
+    width: 155px;
+    height: 14px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    margin: 150px 100px 33px 85px;
+}
+        
