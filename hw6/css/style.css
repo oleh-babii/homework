@@ -97,7 +97,7 @@ body {
 .form-contact-us {
     min-width: 540px;
     min-height: 305px;
-    margin: 117px 165px 123px 0
+    margin: 117px 165px 100px -70px;
 }
 
 input {
