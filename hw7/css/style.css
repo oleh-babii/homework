@@ -128,7 +128,7 @@ p {
     color: #FFFFFF;
     border-style: none;
     margin-left: 220px;
-    margin-bottom: 200px
+    margin-bottom: 180px
 }
 
 .btn-container-two:hover {
@@ -144,4 +144,39 @@ p {
     height: 468px;
     left: 603px;
     top: 336px;
+}
+
+.container-three {
+    width: 1117px;
+    height: 560px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    margin-left: 220px;
+    margin-bottom: 150px;
+}
+
+.container-three-h {
+    width: 475px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    color: #212353;
+    padding: 125px 92px 40px 550px;
+}
+
+.container-three-p {
+    width: 474px;
+    height: 170px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    padding: 0 93px 125px 550px;
+}
+
+.container-three-bg {
+    position: absolute;
+    top: 935px;
 }
