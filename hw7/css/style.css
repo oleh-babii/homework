@@ -639,7 +639,7 @@ ul {
 
 .facebook:hover {
     background-color: rgba(211, 127, 204, 0.5);
-    border-radius: 50px;
+    border-radius: 25px;
     border: 1px solid #5a11e2;
     color: rgb(136, 57, 209);
 }
@@ -651,7 +651,7 @@ ul {
 
 .twitter:hover {
     background-color: rgba(211, 127, 204, 0.5);
-    border-radius: 50px;
+    border-radius: 25px;
     border: 1px solid #5a11e2;
     color: rgb(136, 57, 209);
 }
@@ -662,7 +662,7 @@ ul {
 
 .instagram:hover {
     background-color: rgba(211, 127, 204, 0.5);
-    border-radius: 50px;
+    border-radius: 25px;
     border: 1px solid #5a11e2;
     color: rgb(136, 57, 209);
 }
@@ -690,7 +690,7 @@ ul {
 
 .message:hover {
     background-color: rgba(211, 127, 204, 0.5);
-    border-radius: 50px;
+    border-radius: 30px;
     border: 1px solid #5a11e2;
     color: rgb(136, 57, 209);
 }
