@@ -359,3 +359,97 @@ p {
     left: 818px;
     top: 2367px;
 }
+
+.container-five {
+    width: 1117px;
+    height: 709px;
+    background: #9C69E2;
+    border-radius: 50px;
+    margin-left: 220px;
+    margin-bottom: 150px
+}
+
+.container-five-h {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding: 85px 0 65px 95px;
+}
+
+.container-five-feedback {
+    width: 949px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgb(89 44 153 / 30%);
+    border-radius: 20px;
+    margin: 0 76px 60px 93px;
+    display: flex;
+}
+
+.container-avatar {
+    margin: 60px 45px 180px 100px;
+}
+
+.feedback-h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #212353;
+    margin: 80px 420px 5px 0
+}
+h4 {
+    margin: 0;
+}
+
+.feedback-a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #9C69E2;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.feedback-a:hover {
+    font-size: 15px;
+    color: #e269d2;
+}
+
+.feedback-p {
+    width: 566.46px;
+    height: 130px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4B5D68;
+}
+
+.dots-img {
+    margin-left: 93px;
+}
+
+.dots-img>img {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.dots-pink:hover {
+    content: url(../images/Ellipse\ 72.svg);
+}
+
+.arrow-1 {
+    position: absolute;
+    left: 1170px;
+    cursor: pointer;
+}
+
+.arrow-2 {
+    position: absolute;
+    left: 1225px;
+    cursor: pointer;
+}
