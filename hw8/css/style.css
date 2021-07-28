@@ -1,0 +1,142 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgb(44, 44, 44);
+}
+
+.wrap {
+    width: 1440px;
+    height: 1000px;
+    padding-top: 50px;
+}
+
+.first-border {
+    border: 1px solid #868686;
+    border-radius: 10px;
+    margin: 0 0 50px 140px;
+}
+
+.second-border {
+    border: 1px solid #868686;
+    border-radius: 10px;
+    margin: 0 0 50px 140px;
+}
+
+.third-border {
+    border: 1px solid #868686;
+    border-radius: 10px;
+    margin: 0 0 50px 140px;
+}
+
+.table {
+    border-spacing: 0;
+}
+
+.table-heading {
+    width: 500px;
+    padding: 20px 0 20px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #868686;
+}
+
+.table-data {
+    width: 500px;
+    padding: 20px 0 20px 20px;
+    font-size: 14px;
+    border-bottom: 1px solid #868686;
+}
+
+.table-data-thelast {
+    padding: 20px 0 20px 20px;
+    font-size: 14px;
+}
+
+.white {
+    color: #FFF;
+}
+
+.grey {
+    color: darkgrey;
+}
+
+.box {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.file-position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+    top: -6px;
+}
+
+.relative-thelast {
+    position: relative;
+    bottom: -2px;
+    left: 5px;
+}
+
+.grey-dots {
+    background-image: url(../images/dots-grey.jpg.png);
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: 470px;
+}
+
+.white-dots {
+    background-image: url(../images/dots-white.svg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 470px;
+}
+
+.triangle {
+    width: 10px;
+    height: 10px;
+}
+
+.name-inline {
+    display: inline;
+}
+
+.search-ps {
+    position: relative;
+    top: -25px;
+}
+
+.search {
+    position: absolute;
+    left: 260px;
+    width: 200px;
+    height: auto;
+    padding: 10px 0 10px 30px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(68, 68, 68);
+    outline: none;
+    color: white;
+    background-image: url(../images/loupe.svg);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 10px;
+}
+
+th {
+    text-align: left;
+}

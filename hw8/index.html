@@ -4,9 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tables</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <main>
+        <div class="main">
+            <div class="wrap">
+                <table class="first-border">
+                    <thead>
+                        <tr class="border-bottom">
+                            <th class="table-heading white triangle">Name<img class="triangle" src="./images/White_arrow_down.svg" alt="triangle"></th>
+                            <th class="table-heading white">Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-data white">File.pdf</td>
+                            <td class="table-data grey grey-dots">3 mins ago</td>
+    
+                        </tr>
+                        <tr>
+                            <td class="table-data white">File.pdf</td>
+                            <td class="table-data grey grey-dots">Yesterday</td>
+    
+                        </tr>
+                        <tr>
+                            <td class="table-data-thelast white">File.pdf</td>
+                            <td class="table-data-thelast grey grey-dots">June 1st,2019</td>
+    
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="second-border">
+                    <thead>
+                        <tr>
+                            <th class="table-heading white triangle">
+                                <form class="name-inline" action="#">
+                                    <input id="name" type="checkbox" name="File.pdf" value="File" checked>
+                                    <label for="name">Name</label>
+                                </form>
+                                <img class="triangle" src="./images/White_arrow_down.svg" alt="triangle">
+                            </th>
+                            <th class="table-heading white">Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-data white">
+                                <form action="#">
+                                    <input id="file.pdf" type="checkbox" name="File.pdf" value="File">
+                                    <label for="file.pdf">File.pdf</label>
+                                </form>
+                            </td>
+                            <td class="table-data grey white-dots">3 mins ago</td>
+                        </tr>
+                        <tr>
+                            <td class="table-data white">
+                                <form action="#">
+                                    <input id="file" type="checkbox" name="File.pdf" value="File" checked>
+                                    <label for="file">File.pdf</label>
+                                </form>
+                            </td>
+                            <td class="table-data grey white-dots">Yesterday </td>
+                        </tr>
+                        <tr>
+                            <td class="table-data-thelast white">
+                                <form action="#">
+                                    <input id="pdf" type="checkbox" name="File.pdf" value="File">
+                                    <label for="pdf">File.pdf</label>
+                                </form>
+                            </td>
+                            <td class="table-data-thelast grey white-dots">June 1st,2019 </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="third-border">
+                    <thead>
+                        <tr>
+                            <th class="table-heading white triangle">Name <img class="triangle" src="./images/White_arrow_down.svg" alt="triangle"></th>
+                            <th class="table-heading white">Date
+                                <form class="search-ps" action="#">
+                                    <input class="search" type="text" id="search" name="search" placeholder="Search">
+                                </form>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-data white "> <img class="box" src="./images/box.png" alt="box"> <span class="relative">File.pdf</span> </td>
+                            <td class="table-data grey white-dots">3 mins ago</td>
+    
+                        </tr>
+                        <tr>
+                            <td class="table-data white"> <img class="box" src="./images/box.png" alt="box"> <span class="relative">File.pdf</span> </td>
+                            <td class="table-data grey white-dots">Yesterday</td>
+    
+                        </tr>
+                        <tr>
+                            <td class="table-data-thelast white file-position"> <img class="box" src="./images/box.png" alt="box"> <span class="relative-thelast">File.pdf</span> </td>
+                            <td class="table-data-thelast grey white-dots">June 1st,2019 </td>
+    
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
     
 </body>
 </html>
