@@ -19,25 +19,24 @@ body {
     padding-top: 50px;
 }
 
-.first-border {
+.first-table {
     border: 1px solid #868686;
     border-radius: 10px;
     margin: 0 0 50px 140px;
+    border-spacing: 0;
 }
 
-.second-border {
+.second-table {
     border: 1px solid #868686;
     border-radius: 10px;
     margin: 0 0 50px 140px;
+    border-spacing: 0;
 }
 
-.third-border {
+.third-table {
     border: 1px solid #868686;
     border-radius: 10px;
     margin: 0 0 50px 140px;
-}
-
-.table {
     border-spacing: 0;
 }
 
