@@ -175,7 +175,7 @@ p {
 }
 
 .container-four {
-    margin-bottom: 175px;
+    margin-bottom: 90px;
 }
 
 .container-four-h {
@@ -204,9 +204,26 @@ p {
     display: flex;
 }
 
-.container-wrap {
-    min-width: 519.27px;
+.container-wrap1 {
     min-height: 355px;
+    margin-left: 500px;
+}
+
+.container-wrap2 {
+    min-height: 355px;
+    margin-left: 370px;
+}
+
+.container-wrap3 {
+    min-height: 355px;
+    margin-left: 500px;
+    margin-top: 105px;
+}
+
+.container-wrap4 {
+    min-height: 355px;
+    margin-left: 370px;
+    margin-top: 105px;
 }
 
 .container-four-h1 {
@@ -214,7 +231,6 @@ p {
     font-size: 22px;
     line-height: 130%;
     color: #212353;
-    padding-left: 500px;
 }
 
 .container-four-p1 {
@@ -224,7 +240,6 @@ p {
     font-size: 16px;
     line-height: 160%;
     color: #4B5D68;
-    padding-left: 500px;
 }
 
 .container-four-anchoor1 {
@@ -235,7 +250,6 @@ p {
     color: #212353;
     text-decoration: none;
     cursor: pointer;
-    padding-left: 500px;
 }
 
 /*container-four-anchoor1:hover {
@@ -252,14 +266,11 @@ p {
     top: 1946px;
 }
 
-
-
 .container-four-h2 {
     font-weight: normal;
     font-size: 22px;
     line-height: 130%;
     color: #212353;
-    padding-left: 370px;
 }
 
 .container-four-p2 {
@@ -269,7 +280,6 @@ p {
     font-size: 16px;
     line-height: 160%;
     color: #4B5D68;
-    padding-left: 370px;
 }
 
 .container-four-anchoor2 {
@@ -280,7 +290,6 @@ p {
     color: #212353;
     text-decoration: none;
     cursor: pointer;
-    padding-left: 370px;
 }
 
 .container-four-bg2 {
@@ -289,15 +298,11 @@ p {
     top: 1944px;
 }
 
-
-
 .container-four-h3 {
     font-weight: normal;
     font-size: 22px;
     line-height: 130%;
     color: #212353;
-    padding-left: 500px;
-    margin-top: 105px;
 }
 
 .container-four-p3 {
@@ -307,8 +312,6 @@ p {
     font-size: 16px;
     line-height: 160%;
     color: #4B5D68;
-    padding-left: 500px;
-    
 }
 
 .container-four-anchoor3 {
@@ -319,8 +322,6 @@ p {
     color: #212353;
     text-decoration: none;
     cursor: pointer;
-    padding-left: 500px;
-   
 }
 
 .container-four-bg3 {
@@ -330,14 +331,11 @@ p {
 }
 
 
-
 .container-four-h4 {
     font-weight: normal;
     font-size: 22px;
     line-height: 130%;
     color: #212353;
-    padding-left: 370px;
-    margin-top: 105px;
 }
 
 .container-four-p4 {
@@ -347,7 +345,6 @@ p {
     font-size: 16px;
     line-height: 160%;
     color: #4B5D68;
-    padding-left: 370px;
 }
 
 .container-four-anchoor4 {
@@ -358,7 +355,6 @@ p {
     color: #212353;
     text-decoration: none;
     cursor: pointer;
-    padding-left: 370px;
 }
 
 .container-four-bg4 {
@@ -541,8 +537,13 @@ h4 {
     display: flex;
 }
 
+.data {
+    margin-left: 220px;
+    margin-right: 140px;
+}
+
 .footer-logo {
-    margin: 0 20px 67px 220px;
+    margin: 0 0px 0px 0px;
 }
 
 .footer-dataware-h {
@@ -562,8 +563,8 @@ h4 {
     line-height: 180%;
     letter-spacing: 0.01em;
     color: #212353;
-    margin: 0 140px 10px 220px;
-}
+    padding-top: 70px;
+  }
 
 .mail {
     cursor: pointer;
@@ -574,7 +575,7 @@ h4 {
     line-height: 180%;
     letter-spacing: 0.01em;
     color: #212353;
-    margin: 0 140px 0 220px;
+    padding-top: 20px;
 }
 
 .mail:hover {
@@ -590,7 +591,6 @@ h4 {
     line-height: 180%;
     letter-spacing: 0.01em;
     color: #212353;
-    margin: 0 140px 0 220px;
 }
 
 .tel:hover {
